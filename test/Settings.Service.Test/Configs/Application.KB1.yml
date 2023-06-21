@@ -1,0 +1,7 @@
+Variables:
+  ConnectionStrings:
+    Server: kb1-server
+    Login: kb1-login
+    Password: kb1-pass
+  
+override-shared-value: Application KB1

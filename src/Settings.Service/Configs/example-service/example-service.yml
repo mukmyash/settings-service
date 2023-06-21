@@ -1,0 +1,11 @@
+override-shared-value: Service
+
+variable1: Service Variable 1
+variable2: Service Variable 2
+
+useVariable1: value from variable 1'${variable1}'
+useVariable1And2: value from variable 1 '${variable1}' and variable 2 '${variable2}'
+# Нельзя использовать переменные параметры которые не объявлены
+#useNotDeclareVariable: value from not declare variable '${notDeclareVariable}'
+
+useValueOtherVariable: value from useVariable1And2 '${useVariable1And2}'

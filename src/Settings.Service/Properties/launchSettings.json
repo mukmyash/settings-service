@@ -1,0 +1,24 @@
+{
+  "profiles": {
+    "Dev": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "applicationUrl": "http://localhost:5089",
+      "launchUrl": "configuration/example-service",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "kb1": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "applicationUrl": "http://localhost:5089",
+      "launchUrl": "configuration/example-service",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "KB1"
+      }
+    }
+  }
+}

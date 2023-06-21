@@ -1,0 +1,4 @@
+ConnectionStrings:
+  DataBase: "Server: ${Variables:ConnectionStrings:Server}, Login = ${Variables:ConnectionStrings:Login}, Password=${Variables:ConnectionStrings:Password}"
+  
+override-shared-value: Application

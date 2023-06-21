@@ -1,0 +1,7 @@
+Variables:
+   ConnectionStrings:
+     Server: dev-server
+     Login: dev-login
+     Password: dev-pass
+  
+override-shared-value: Application Development
